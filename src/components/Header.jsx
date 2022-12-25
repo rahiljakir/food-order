@@ -53,7 +53,7 @@ const Header = () => {
       <div className='hidden md:flex w-full h-full items-center justify-between'>
         <Link to={"/"} className='flex items-center gap-2'>
           <img src={Logo} alt='logo' className='w-8 object-cover' />
-          <p className='text-headingColor text-xl font-bold'>City</p>
+          <p className='text-headingColor text-xl font-bold'>Food City</p>
         </Link>
         <div className='flex items-center gap-8'>
           <ul className='flex items-center gap-8'>
