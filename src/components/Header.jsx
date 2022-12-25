@@ -77,10 +77,10 @@ const Header = () => {
                 }
               }}
             >
-              Menu
+              <Link to={"/"}> Menu</Link>
             </li>
             <li className='text-base text-textColor cursor-pointer hover:text-headingColor duration-100 transition-all ease-in-out'>
-              About Us
+              <Link to={"/aboutus"}>About Us</Link>
             </li>
             <li className='text-base text-textColor cursor-pointer hover:text-headingColor duration-100 transition-all ease-in-out'>
               <Link to={"/contactus"}>Contact Us</Link>
@@ -181,7 +181,7 @@ const Header = () => {
                   Menu
                 </li>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2'>
-                  About Us
+                  <Link to={"/aboutus"}>About Us</Link>
                 </li>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2'>
                   Service

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaGithub, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const ContactUs = () => {
   return (
     <div>
@@ -61,7 +62,7 @@ const ContactUs = () => {
               </div>
               <div className='p-2 w-full'>
                 <button className='flex mx-auto text-black bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-400 rounded text-lg'>
-                  Submit Feedback
+                  <Link to={"/"}>Submit Feedback</Link>
                 </button>
               </div>
               <div className='p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center'>

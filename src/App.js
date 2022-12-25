@@ -5,6 +5,7 @@ import {
   MainContainer,
   CreateContainer,
   ContactUs,
+  Aboutus,
 } from "./components";
 import { actionType } from "./context/reducer";
 import { useStateValue } from "./context/StateProvider";
@@ -32,6 +33,7 @@ const App = () => {
           <Route path='/*' element={<MainContainer />} />
           <Route path='/createitem' element={<CreateContainer />} />
           <Route path='/contactus' element={<ContactUs />} />
+          <Route path='/aboutus' element={<Aboutus />} />
         </Routes>
       </main>
     </div>
