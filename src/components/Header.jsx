@@ -109,7 +109,7 @@ const Header = () => {
             />
             {isMenu && (
               <div className=' w-40 bg-primary shadow-xl rounded-lg absolute flex flex-col top-12 right-0'>
-                {user && user.email === "rahiljakir786@gmail.com" && (
+                {user && user.email === "avinashkariya05910@gmail.com" && (
                   <Link to={"/createItem"}>
                     <p className='px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-200 transition-all duration-100 ease-in-out text-textColor text-base'>
                       New Item <MdAdd />
